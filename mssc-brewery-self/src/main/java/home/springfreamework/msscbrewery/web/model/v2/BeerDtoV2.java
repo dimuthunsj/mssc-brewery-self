@@ -1,20 +1,21 @@
-package home.springfreamework.msscbrewery.web.model;
+package home.springfreamework.msscbrewery.web.model.v2;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Positive;
 import java.util.UUID;
 
-/**
- * Created by User on 6/17/2020.
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDto {
+public class BeerDtoV2 {
+
     @Null
     private UUID id;
 
