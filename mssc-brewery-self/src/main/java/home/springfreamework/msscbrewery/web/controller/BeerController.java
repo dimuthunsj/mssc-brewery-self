@@ -1,7 +1,7 @@
 package home.springfreamework.msscbrewery.web.controller;
 
 import home.springfreamework.msscbrewery.web.model.BeerDto;
-import home.springfreamework.msscbrewery.web.service.BeerService;
+import home.springfreamework.msscbrewery.services.BeerService;
 import lombok.Data;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

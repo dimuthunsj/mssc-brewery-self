@@ -2,17 +2,14 @@ package home.springfreamework.msscbrewery.web.controller;
 
 import home.springfreamework.msscbrewery.web.model.BeerDto;
 import home.springfreamework.msscbrewery.web.model.CustomerDto;
-import home.springfreamework.msscbrewery.web.service.CustomerService;
+import home.springfreamework.msscbrewery.services.CustomerService;
 import lombok.Data;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.UUID;
 
 @Data
@@ -54,7 +51,7 @@ public class CustomerController {
         service.deleteById(customerId);
     }
 
-    @ExceptionHandler(ConstraintViolationException.class)
+    /*@ExceptionHandler(ConstraintViolationException.class)
     public ResponseEntity<List> validationErrorHandler(ConstraintViolationException e){
         List<String> errors = new ArrayList<>(e.getConstraintViolations().size());
 
@@ -63,5 +60,5 @@ public class CustomerController {
         });
 
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
-    }
+    }*/
 }

@@ -2,7 +2,7 @@ package home.springfreamework.msscbrewery.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import home.springfreamework.msscbrewery.web.model.BeerDto;
-import home.springfreamework.msscbrewery.web.service.BeerService;
+import home.springfreamework.msscbrewery.services.BeerService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
