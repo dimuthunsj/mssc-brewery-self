@@ -27,7 +27,7 @@ class BreweryClientTest {
 
     @Test
     public void saveNewBeer(){
-        final BeerDto buildDto = BeerDto.builder().beerName("Lion").build();
+        final BeerDto buildDto = BeerDto.builder().beerName("Lion").beerStyle("AAA").upc(10000l).build();
         final URI uri = client.saveNewBeer(buildDto);
         assertNotNull(uri);
         System.out.println("uri : " + uri.toString());

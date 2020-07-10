@@ -1,7 +1,6 @@
-package home.springfreamework.msscbrewery.web.service;
+package home.springfreamework.msscbrewery.services;
 
 import home.springfreamework.msscbrewery.web.model.BeerDto;
-import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 

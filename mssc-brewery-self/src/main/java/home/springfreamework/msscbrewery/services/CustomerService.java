@@ -1,4 +1,4 @@
-package home.springfreamework.msscbrewery.web.service;
+package home.springfreamework.msscbrewery.services;
 
 import home.springfreamework.msscbrewery.web.model.CustomerDto;
 

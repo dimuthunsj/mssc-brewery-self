@@ -1,4 +1,4 @@
-package home.springfreamework.msscbrewery.web.service.v2;
+package home.springfreamework.msscbrewery.services.v2;
 
 import home.springfreamework.msscbrewery.web.model.v2.BeerDtoV2;
 import org.springframework.stereotype.Service;
